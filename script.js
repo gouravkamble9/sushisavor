@@ -173,7 +173,7 @@ function handleSelect(cat) {
     <h4 class="popular-foods__card-title">${item.title}</h4>
     <div class="popular-foods__card-details flex-between">
       <div class="popular-foods__card-rating">
-        <img src="/assets/star.svg" alt="star" />
+        <img src="https://res.cloudinary.com/dyhgopnii/image/upload/v1694871513/sushisavor/star_rz1bpm.svg" alt="star" />
         <p>${item.rating}</p>
       </div>
 
