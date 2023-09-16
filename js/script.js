@@ -273,6 +273,24 @@ udon.addEventListener("click",()=>{
   handleSelect("Udon")
 })
 
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenuButton = document.getElementById("mobile-menu-button");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeMenuButton = document.getElementById("close-menu");
+  const mobile_menu=document.getElementById("mobile-menu-items")
+  
+  mobile_menu.addEventListener("click",function (){
+    mobileMenu.style.left = "-100%";
+  })
+
+  mobileMenuButton.addEventListener("click", function () {
+    mobileMenu.style.left = "0";
+  });
+
+  closeMenuButton.addEventListener("click", function () {
+    mobileMenu.style.left = "-100%";
+  });
+});
 
 
 

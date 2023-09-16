@@ -290,7 +290,14 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  /* .trending-drink {
+    flex-direction: column-reverse;
+  } */
+  .trending-sushi, .trending-drinks{
+    flex-direction: column;
+  }
+
+  .trending-drinks{
     flex-direction: column-reverse;
   }
 
@@ -317,4 +324,15 @@ a {
   .trending__content {
     padding: 32px;
   }
+}
+
+/* footer media query */
+
+@media screen and (max-width: 550px) {
+  .footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
 }
