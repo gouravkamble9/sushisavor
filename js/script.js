@@ -210,7 +210,7 @@ function handleSelect(cat) {
       } ">
     <img
       class="popular-foods__card-image"
-      src="assets/${item.imgSrc}"
+      src="/assets/${item.imgSrc}"
       alt="sushi"
     />
     <h4 class="popular-foods__card-title">${item.title}</h4>
