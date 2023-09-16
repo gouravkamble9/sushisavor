@@ -237,9 +237,17 @@ a {
 
 /* START: popular media queries */
 @media screen and (max-width: 550px) {
-  .popular-foods {
-    padding: 64px 32px;
+  .popular-food {
+    padding: 32px;
   }
+  .popular-foods__filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .popular-foods__filter-btn{
+    width: calc(100%/2 - 18px);
+  }
+
 
   .popular-foods__card,
   .popular-foods__card.active-card {
@@ -335,4 +343,11 @@ a {
     flex-direction: row;
     gap: 14px;
 }
+}
+
+
+@media screen and (max-width:550px){
+  .sushi__title {
+    font-size: 50px;
+  }
 }
