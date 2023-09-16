@@ -53,7 +53,7 @@ const trendingDrinks = [
 
 const cards = [
   {
-    imgSrc: "sushi-12.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871012/sushisavor/sushi-12_hhnfl4.png",
     alt: "sushi-12",
     title: "Sakura Blossom",
     rating: "4.8",
@@ -61,7 +61,7 @@ const cards = [
     category: "Sushi",
   },
   {
-    imgSrc: "sushi-11.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871016/sushisavor/sushi-11_zreoo0.png",
     alt: "sushi-11",
     title: "Oceanic Paradise",
     rating: "4.9",
@@ -70,7 +70,7 @@ const cards = [
     active: true,
   },
   {
-    imgSrc: "sushi-13.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871011/sushisavor/sushi-13_uvwmwk.png",
     alt: "sushi-10",
     title: "Dragon's Delight",
     rating: "4.7",
@@ -78,7 +78,7 @@ const cards = [
     category: "Sushi",
   },
   {
-    imgSrc: "sushi-10.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871009/sushisavor/sushi-10_azadaf.png",
     alt: "sushi-10",
     title: "Ramen Legendo",
     rating: "4.8",
@@ -86,7 +86,7 @@ const cards = [
     category: "Ramen",
   },
   {
-    imgSrc: "ramen-1.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871024/sushisavor/ramen-1_fujse4.png",
     alt: "sushi-10",
     title: "Miso Marvel",
     rating: "4.9",
@@ -95,7 +95,7 @@ const cards = [
     active: true,
   },
   {
-    imgSrc: "ramen-2.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871017/sushisavor/ramen-2_mdlvxv.png",
     alt: "sushi-10",
     title: "Tokyo Tonkotsu",
     rating: "4.8",
@@ -103,7 +103,7 @@ const cards = [
     category: "Ramen",
   },
   {
-    imgSrc: "udon-1.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871013/sushisavor/udon-1_rl967a.png",
     alt: "sushi-10",
     title: "Miso Magic",
     rating: "4.8",
@@ -111,7 +111,7 @@ const cards = [
     category: "Udon",
   },
   {
-    imgSrc: "udon-2.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871016/sushisavor/udon-2_zbbij3.png",
     alt: "sushi-10",
     title: "Teriyaki Treasure",
     rating: "4.8",
@@ -120,7 +120,7 @@ const cards = [
     active: true,
   },
   {
-    imgSrc: "udon-3.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871011/sushisavor/udon-3_iotnyb.png",
     alt: "sushi-10",
     title: "Kyoto Delight",
     rating: "4.7",
@@ -128,7 +128,7 @@ const cards = [
     category: "Udon",
   },
   {
-    imgSrc: "dango-1.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871016/sushisavor/dango-1_zzo42u.png",
     alt: "sushi-10",
     title: "Sakura Blossom",
     rating: "4.7",
@@ -136,7 +136,7 @@ const cards = [
     category: "Dango",
   },
   {
-    imgSrc: "dango-2.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871009/sushisavor/dango-2_pp1kem.png",
     alt: "sushi-10",
     title: "Matcha Moments",
     rating: "4.9",
@@ -145,7 +145,7 @@ const cards = [
     active: true,
   },
   {
-    imgSrc: "dango-3.png",
+    imgSrc: "https://res.cloudinary.com/dyhgopnii/image/upload/v1694871017/sushisavor/dango-3_xs8gf5.png",
     alt: "sushi-10",
     title: "Rainbow Rice",
     rating: "4.8",
@@ -167,7 +167,7 @@ function handleSelect(cat) {
       } ">
     <img
       class="popular-foods__card-image"
-      src="/assets/${item.imgSrc}"
+      src="${item.imgSrc}"
       alt="sushi"
     />
     <h4 class="popular-foods__card-title">${item.title}</h4>
