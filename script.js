@@ -1,8 +1,4 @@
-import check from "../assets/check.svg";
-import star from "../assets/star.svg";
-import sushi12 from "../assets/sushi-12.png";
-import sushi11 from "../assets/sushi-11.png";
-import sushi10 from "../assets/sushi-10.png";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -158,45 +154,6 @@ const cards = [
   },
 ];
 
-// const foodCategory = document.querySelector(".popular-foods__filters");
-
-// foodCategory.innerHTML = category
-//   .map((item) => {
-//     return `
-//     <button class="popular-foods__filter-btn">
-//     ${item.url ? `<img src="assets/${item.url}" alt="sushi9" />` : ""}${
-//       item.name
-//     }
-//     </button>
-
-//     `;
-//   })
-//   .join("");
-
-// const popular_food = document.querySelector(".popular-foods__catalogue");
-
-// popular_food.innerHTML = cards
-//   .map((item) => {
-//     return `<article class="popular-foods__card ${
-//       item.active ? "active-card" : ""
-//     } ">
-//     <img
-//       class="popular-foods__card-image"
-//       src="assets/${item.imgSrc}"
-//       alt="sushi"
-//     />
-//     <h4 class="popular-foods__card-title">${item.title}</h4>
-//     <div class="popular-foods__card-details flex-between">
-//       <div class="popular-foods__card-rating">
-//         <img src="assets/star.svg" alt="star" />
-//         <p>${item.rating}</p>
-//       </div>
-
-//       <p class="popular-foods__card-price">${item.price}</p>
-//     </div>
-//   </article>`;
-//   })
-//   .join("");
 
 
 
